@@ -1,4 +1,66 @@
 Apuntes de html
+
+
+
+
+
+
+# Introduccion a html
+
+- **Que es HTML**
+- HTML significa lenguaje de marcado de hipertexto
+- HTML es el lenguaje de marcado estándar para crear páginas web.
+- HTML describe la estructura de una página Web
+- HTML consta de una serie de elementos
+- Los elementos HTML le dicen al navegador cómo mostrar el contenido
+- Los elementos HTML etiquetan piezas de contenido como "este es un encabezado", "este es un párrafo", "este es un enlace", etc.
+
+
+
+
+- **Un documento simple de HTML**
+``` html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+</body>
+</html>
+```
+```
+ La <!DOCTYPE html> es una declaracion que define un documento de html5
+ 
+ El <html>elemento es el elemento raíz de una página HTML.
+ 
+ El <head>elemento contiene metainformación sobre la página HTML.
+ 
+ El <title>elemento especifica un título para la página HTML (que se muestra en la 
+ barra de título del navegador o en la pestaña de la página)
+ 
+ El <body>elemento define el cuerpo del documento y es un contenedor de todos los contenidos visibles, como encabezados, párrafos, imágenes, hipervínculos, tablas, listas, etc.
+ 
+ El <h1>elemento define un encabezado grande
+ 
+ El <p>elemento define un párrafo.
+```
+
+# **Que es un elemnto html**
+
+```
+Un elemento HTML se define mediante una etiqueta de inicio, algo de contenido y una etiqueta de finalización:
+
+< nombre de la etiqueta > El contenido va aquí... < /nombre de la etiqueta >
+El elemento HTML es todo, desde la etiqueta de inicio hasta la etiqueta final:
+
+< h1 > Mi primer encabezado < /h1 >
+< p > Mi primer párrafo. < /p >
+```
 - # Etiquetas html
 
 
@@ -32,4 +94,61 @@ Para escribir comentarios hay que hacer lo siguiente.
 
 ```HTML
 <!-- ESTO ES UN COMENTARIO -->
+```
+### **Parrafos html**
+
+Los parrafos se definen con la etiqueta ```<p>```.
+```html
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+```
+### **Enlaces html**
+Los enlaces html se definen con la etiqueta ```<a>```.
+```html
+<a href="https://www.w3schools.com">This is a link</a>
+```
+
+### **Imagenes html**
+Las imagenes html se definen con la etiqueta ```<img>```.
+El archivo de origen ( src), el texto alternativo ( alt), widthy heightse proporcionan como atributos.
+
+```html
+<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+```
+
+# **Elementos html**
+El elemento html es todo desde la etiqueta de inicio hasta la etiqueta del final, segun el tipo de etiqueta le va ha hacer falta un final o no, las podemos clsificar como etiquetas abiertas que son las que no tienen un final y las cerradas que tienen un inicio y un final.
+
+- Abiertas
+```<hr>```
+- Cerradas 
+```< h1 > Mi primer encabezado < /h1 >```
+
+## **Elementos anidados**
+
+Los elementos de html se pueden anidar, esto significa que una etiqueta puede contener otra etiqueta. Todos los elementos html constan de elementos html anidados.
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+</body>
+</html>
+```
+
+# **Atributos**
+
+- Todos los elementos HTML pueden tener atributos
+- Los atributos proporcionan información adicional sobre los elementos .
+- Los atributos siempre se especifican en la etiqueta de inicio
+- Los atributos generalmente vienen en pares de nombre/valor como: nombre="valor"
+
+## El atributo href
+
+La ```<a>``` define un hipervinculo y href especifica la URL a la que v el enlace.
+```html
+<a href="https://www.w3schools.com">Visit W3Schools</a>
 ```
