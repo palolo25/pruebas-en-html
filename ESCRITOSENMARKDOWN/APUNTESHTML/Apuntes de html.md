@@ -152,3 +152,60 @@ La ```<a>``` define un hipervinculo y href especifica la URL a la que v el enlac
 ```html
 <a href="https://www.w3schools.com">Visit W3Schools</a>
 ```
+
+## El atributo src 
+la ```<img>``` es una etiqueta utilizada par incrustar una imagen en una pagina html. El src es un atributo que especifica la ruta a la imaagen que se va a mostrar
+
+```html
+<img src="img_girl.jpg">
+```
+Hay dos formas de especificar la Url en el src atributo:
+1. 1. URL absoluta : enlaces a una imagen externa alojada en otro sitio web. Ejemplo: src="https://www.w3schocols.com/images/img_girl.jpg" .
+
+
+1. URL relativa : enlaces a una imagen alojada en el sitio web. Aquí, la URL no incluye el nombre de dominio. Si la URL comienza sin una barra inclinada, será relativa a la página actual. Ejemplo: src="img_girl.jpg". Si la URL comienza con una barra inclinada, será relativa al dominio. Ejemplo: src="/images/img_girl.jpg".
+
+
+## Atributos de ancho y alto
+
+La ```<img>``` de contener las etiquetas de width y height que especifican el ancho y el alto de la imagen (en pixeles).
+
+```html
+<img src="img_girl.jpg" width="500" height="600">
+```
+
+## El atributo de alt
+El alt requerido para la ```<img>```  etiqueta especifica un texto alternativo para una imagen, si la imagen por algún motivo no se puede mostrar. Esto puede deberse a una conexión lenta, a un error en el src atributo, o si el usuario usa un lector de pantalla.
+
+```html
+<img src="img_girl.jpg" alt="Girl with a jacket">
+```
+
+## Atributo style
+
+El style es un atributo que se usa para agregar estilos a un elemento como colo, fuente, tamaño y mas.
+
+```html
+<p style="color:red;">This is a red paragraph.</p>
+```
+
+
+## Atributo lang
+
+El atributo lang va dentro de la etiqueta html para declarar el idioma de la pagina, esto sirve para ayudar a los motores de busqueda y a los navegadores.
+
+```html
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+...
+</body>
+</html>
+```
+## Atributo title
+
+El atributo title define informacion adicional sobre un elemento, su valor se mostrara como informacion sobre herramientas cuando pase el mouse sobre el elemento.
+
+```html
+<p title="I'm a tooltip">This is a paragraph.</p>
+```
