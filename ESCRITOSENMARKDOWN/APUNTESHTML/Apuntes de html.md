@@ -148,11 +148,18 @@ Los elementos de html se pueden anidar, esto significa que una etiqueta puede co
 
 ## El atributo href
 
-La ```<a>``` define un hipervinculo y href especifica la URL a la que v el enlace.
+La ```<a>``` define un hipervinculo y href especifica la URL a la que v el enlace. Los hipervínculos también son una parte fundamental de cualquier página web. Puede agregar hipervínculos a textos o imágenes que le permitirán al usuario hacer click en ellos para luego ser redirigidos a otro archivo o página web.
+
 ```html
 <a href="https://www.w3schools.com">Visit W3Schools</a>
 ```
+## El atributo target
 
+Este atributo especfica donde se abre el documento vinculado.
+
+```html
+<a href= "vinculo" target="_blank">hola mundo</a>
+```
 ## El atributo src 
 la ```<img>``` es una etiqueta utilizada par incrustar una imagen en una pagina html. El src es un atributo que especifica la ruta a la imaagen que se va a mostrar
 
@@ -209,3 +216,60 @@ El atributo title define informacion adicional sobre un elemento, su valor se mo
 ```html
 <p title="I'm a tooltip">This is a paragraph.</p>
 ```
+# **Formularios**
+Los formularios HTML son usados para recolectar información del usuario.
+Los formularios son definidos usando el elemento ```<form>``` , con sus etiquetas de apertura y cierre.ç
+```html
+<body>
+
+    <form></form>
+
+</body>
+```
+
+## Atributo action
+
+Este atributo ```<action>``` nos permite apuntar a una pagina web que cargara despues de que el usuario envie el formulario.
+
+## Atributos method y name
+
+El atributo method especifica el método HTTP (GET o POST) a ser usado cuando los formularios son enviados (observe abajo la descripción)
+
+```html
+<form action="url" method="GET">
+
+<form action="url" method="POST">
+```
+Cuando usamos GET, los datos del formulario serán visibles en la dirección de la página.
+Utiliza POST si el formulario está actualizando datos, o incluye información sensible (contraseñas).  POST ofrece mejor seguridad porque los datos enviados no son visibles en la dirección de la página.
+
+## Atributo input
+
+El elemento ```<input>``` tiene muchas variaciones, dependiendo del tipo de atributo.  Puede ser texto, contraseña, radio, URL, envío, etc.
+
+```html
+<form>
+    <input type="text" name="usuario"/><br />
+    <input type="password" name="contraseña"/>
+</form>
+```
+### Elementos de formularios
+
+Si cambiamos el tipo ```<input>``` a ```<radio>```, permitiremos al usuario seleccionar sólo una de un número de opciones desplegadas.
+
+```html
+<input type="radio" name="gender" value="male" />Masculino<br />
+<input type="radio" name="gender" value="female" />Femenino<br />
+```
+El tipo "checkbox" permite al usuario seleccionar más de una opción.
+```html
+<input type="checkbox" name="gender" value="1" />Masculino<br />
+<input type="checkbox" name="gender" value="2" />Femenino<br />
+```
+El tipo ```submit``` envía un formulario a la dirección especificada en su atributo action.
+```html
+<input type="submit" value="enviar" />
+```
+
+
+# **Tipos de elementos**
