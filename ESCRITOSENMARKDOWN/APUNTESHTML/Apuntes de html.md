@@ -273,3 +273,92 @@ El tipo ```submit``` envía un formulario a la dirección especificada en su atr
 
 
 # **Tipos de elementos**
+
+En HTML, la mayoría de elementos son definidos como elementos a nivel de bloque (block) o en línea (inline).
+Los elementos a nivel de bloque empiezan desde una nueva línea.
+
+Ejemplos de ello son : ```h1```, ```form```, ```li```, ```ol```, ```ul```, ```p```, ```pre```, ```table```, ```div```.
+
+Los elementos en línea son normalmente desplegados sin los saltos de línea.
+Un ejemplo de ello son : ```b```, ```a```, ```strong```, ```img```, ```input```, ```em```, ```span```.
+
+El elemento ```<div>``` es un elemento a nivel de bloque que es a menudo utilizado como contenedor para otros elementos HTML.
+Cuando se utiliza en conjunto con CSS, el elemento ```<div>``` puede ser utilizado para darle estilo a bloques de contenido.
+
+Otros elementos pueden ser usados como elementos del nivel de bloque o elementos en línea.  Esto incluye los siguientes elementos:
+- APPLET - applet Java embebido
+- IFRAME - marco en línea
+- INS - texto insertado
+- MAP - mapa de imagen
+- OBJECT - objeto incrustado
+- SCRIPT - secuencia de comandos dentro de un documento HTML
+
+Puede insertar elementos en línea dentro de los elementos de bloque. Por ejemplo, puede tener múltiples elementos ```<span>``` dentro de un elemento ```<div>```.
+
+
+# **El elemento nav**
+Esta etiqueta representa una sección de una página que conecta a otras páginas o ciertas secciones dentro de la página.  Esto sería una sección con hipervínculos de navegación.
+```html
+<nav><h4>Apartados</h4>
+<ul>
+
+<li><a href="#">Contenidos de golf</a></li>
+<li><a href="#">Marcas de palos de golf</a></li>
+<li><a href="#"> del golf</a></li>
+
+</ul>
+
+    </nav>
+```
+
+## El elemento article
+El elemento article es una pieza autónoma, de contenido independiente que puede ser usada y distribuida separadamente del resto de la página o sitio.  Esto podría ser un post de un foro, una revista o un artículo de revista, una entrada de blog, un comentario, un widget interactivo o gadget, o cualquier otra pieza de contenido independiente.
+```html
+<left><article id="contenidos"><h2>Contenidos del golf</h2>
+<p>holaaa</p><br>
+<p>buenos dias</p><br>
+</article></left>
+```
+## El elemento section
+
+```<section>``` es un contenedor lógico de la página web o artículo.  Las secciones pueden ser usadas para dividir contenido dentro de un artículo.
+Por ejemplo, una página principal podría tener una sección para introducir a la compañía, otra para ítems de noticias, y también otra para la información de contacto.
+
+```html
+<left><article id="contenidos"><h2>Contenidos del golf</h2>
+<section><p>holaaa buenas tardes</p></section><br>
+<section><p>buenos dias</p></section><br>
+</article></left>
+```
+
+## El elemento audio
+Antes de HTML5, no había un estándar para reproducir archivos de audio en una página web.   El elemento HTML5 ```<audio>``` especifica un estándar para instructar audio en una página web.
+```html
+<audio autoplay controls loop preload="auto">
+    <source src="audio/audio.mp3" type="audio/mp3">
+    <source src="audio/audio.m4a" type="audio/mp4">
+    <source src="audio/audio.ogg" type="audio/ogg">
+    
+  </audio>
+```
+## El lemento de video 
+El elemento video es similar al elemento audio. Se puede especificar la URL de origen del video usando un atributo en un elemento de video, o usando elementos source dentro del elemento video.
+```html
+ <video autoplay controls loop width="500" height="200">
+     <source src="video/video.mp4" type="video/mp4">
+     <source src="video/video.ogv" type="video/ogg">
+     <source src="video/video.webm" type="video/webm">
+```
+
+## El elemento progress
+El elemento ```<progress>```(progreso) provee la habilidad de crear barras de progreso en la web. 
+Este elemento progreso puede ser usado con encabezados, párrafos, o en cualquier otra parte del body.
+
+Atributos del Elemento de Progreso
+Value: Especifica cuánto de la tarea ha sido completado.
+Max: Especifica cuánto trabajo la tarea requiere en total.
+
+```html
+<progress min="0" max="100" value="35">
+</progress>
+```
