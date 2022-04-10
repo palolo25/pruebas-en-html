@@ -7,9 +7,6 @@ Estilos de juegagolff
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 text-align: center;
 }
-
-
-
 header{
 
 color: rgb(255, 255, 255);
@@ -54,7 +51,7 @@ font-size: 200%;
     font-size: smaller;
     font-family: 'Times New Roman', Times, serif;
     text-align: right
-    vertical-align: middle;
+    
 }
 #contenidos{
     font-size:x-large ;
