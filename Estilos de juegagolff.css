@@ -1,5 +1,12 @@
 Estilos de juegagolff
-
+.busca{
+    color: rgb(255, 255, 255);
+    background-color: rgb(5, 218, 5);
+    font-size: 300%;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+}
 
 
 
@@ -24,21 +31,30 @@ font-size: 200%;
     font-size: larger;
     font-family: 'Times New Roman', Times, serif;
     border:3px solid black;
+    text-align: center;
 }
 #Cong{
     color: rgb(255, 255, 255);
-    font-size: larger;
+    font-size: smaller;
     font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    vertical-align: top;
+    
 }
 #Marg{
     color: rgb(255, 255, 255);
-    font-size: larger;
+    font-size: smaller;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    vertical-align: top;
+    
 }
 #Norg{
     color: rgb(255, 255, 255);
-    font-size: larger;
+    font-size: smaller;
     font-family: 'Times New Roman', Times, serif;
+    text-align: right
+    vertical-align: middle;
 }
 #contenidos{
     font-size:x-large ;
