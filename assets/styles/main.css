@@ -56,10 +56,12 @@ nav {
   background-color: rgb(5, 218, 5);
   color: rgb(255, 255, 255);
   border: 3px solid black;
+  
 }
 #for1 {
   background-color: rgb(5, 218, 5);
   color: rgb(255, 255, 255);
   font-size: x-large;
   font-family: "Times New Roman", Times, serif;
+  border: 1px;
 }
